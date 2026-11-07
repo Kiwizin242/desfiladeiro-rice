@@ -1,0 +1,24 @@
+{
+  "logo": {
+    "type": "file-raw",
+    "padding": { "top": 1, "left": 4, "right": 4 }
+  },
+  "display": { "separator": "  ~>  ", "color": { "title": "magenta" } },
+  "modules": [
+    "title",
+    "separator",
+    { "type": "os", "key": "OS", "keyColor": "green" },
+    { "type": "kernel", "key": "Kernel", "keyColor": "green" },
+    "break",
+    { "type": "uptime", "key": "Uptime", "keyColor": "red" },
+    { "type": "host", "key": "Host", "keyColor": "red" },
+    { "type": "cpu", "key": "CPU", "keyColor": "red" },
+    { "type": "gpu", "key": "GPU", "keyColor": "red" },
+    { "type": "memory", "key": "RAM", "keyColor": "red" },
+    "break",
+    { "type": "disk", "key": "Disco", "keyColor": "yellow", "folders": "/" },
+    "break",
+    { "type": "sound", "key": "Som", "keyColor": "cyan" },
+    { "type": "datetime", "key": "Data", "keyColor": "cyan" }
+  ]
+}

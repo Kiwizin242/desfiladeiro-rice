@@ -1,0 +1,10 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Id": "local.desfiladeiro.media",
+    "Name": "Desfiladeiro · Reprodução",
+    "Description": "Faixa atual e controles de reprodução",
+    "Icon": "multimedia-player"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

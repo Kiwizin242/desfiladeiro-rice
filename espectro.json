@@ -1,0 +1,10 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Id": "local.desfiladeiro.spectrum",
+    "Name": "Desfiladeiro · Espectro",
+    "Description": "Espectro da saída de áudio local",
+    "Icon": "multimedia-volume-control"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+assets=${XDG_DATA_HOME:-$HOME/.local/share}/desfiladeiro
+if [[ -t 1 ]] && (( ${COLUMNS:-$(tput cols 2>/dev/null || printf 80)} >= 72 )); then
+    if [[ -r "$assets/link.ansi" ]]; then
+        logo=(--file-raw "$assets/link.ansi")
+    else
+        logo=(--logo-type builtin --logo Fedora)
+    fi
+    env -u NO_COLOR fastfetch --config "$assets/fastfetch.jsonc" "${logo[@]}" --pipe false
+fi
+exec "${SHELL:-/bin/bash}" -i
